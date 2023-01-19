@@ -26,5 +26,16 @@ public class LineComparisonDay3Prob {public static void main(String[] args ) {
     else {
         System.out.println(" lines are not equal");
     }
+    //compareTo Method
+    int out1 = (l1.compareTo(l2));
+    if(out1>0) {
+        System.out.println("line1 is greater than line2");
+    }
+    else if(out1==0) {
+        System.out.println("line1 is equal line2 ");
+    }
+    else {
+        System.out.println(" line2 is greater than line1");
+    }
 }
 }
